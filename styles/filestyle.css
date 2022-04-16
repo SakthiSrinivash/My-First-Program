@@ -1,0 +1,16 @@
+tbody tr{
+			text-align: left;
+			background: #4aa18d;
+			border-bottom: 1px solid grey;
+			background-image: linear-gradient(to right, #ff8673, #ffd26f);
+		}
+		tbody tr td{
+			padding: 10px;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		.table-container{
+			width: 700px; margin: auto; text-align: center; 
+			background-image: linear-gradient(to right, #ff0c008c, #ffd40091);
+		}
