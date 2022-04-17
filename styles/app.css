@@ -25,10 +25,10 @@ body{
 	justify-content: center;
 	align-content: center;
     /*border: 1px solid blue;*/ 
-    border-radius: 5px;
+    border-radius: 23px;
  /*   position: relative;
     top: calc(50% - 200px);*/
-    background-image: linear-gradient(#580b1ad1 , rgb(237 98 17 / 89%));
+    background-image: linear-gradient(#18030259 , rgb(61 237 17 / 52%));
 }
 
 .weather-holder{

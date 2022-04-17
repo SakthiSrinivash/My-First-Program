@@ -5,6 +5,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>weather app</title>
 	<link rel="stylesheet" href="styles\app.css">
+	<script>
+		window.onload = function() {
+			var now = new Date();
+			var monthNames = [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December"	
+			];
+
+			var today = monthNames[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
+			document.getElementById('date').innerHTML = today;
+
+		}
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -14,7 +37,7 @@
 				<div class="location-info" style="display: inline-block;">
 					<div class="location" style="padding-bottom: 5px;">
 						<div class="bold-text">San Francisco</div>
-						<span style="margin-bottom:20px";>March 27, 2022</span>
+						<span style="margin-bottom:20px"; id="date"></span>
 					</div>
 					<div class="weather-name">
 						<img src="images\cloud-sun.png" alt=" ">
